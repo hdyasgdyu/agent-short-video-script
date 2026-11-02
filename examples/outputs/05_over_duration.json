@@ -1,0 +1,102 @@
+{
+  "case_id": "05_over_duration",
+  "mode": "mock",
+  "llm_info": "mock / 离线策略表（非真实模型决策）",
+  "status": "completed",
+  "script": {
+    "title": "露营投影仪怎么选",
+    "platform": "douyin",
+    "target_seconds": 30,
+    "shots": [
+      {
+        "shot_id": 1,
+        "visual": "开场：用户面对具体使用场景，镜头推近细节",
+        "narration": "你有没有遇到过露营投影仪怎么选的纠结时刻？整体比预期顺手一些。",
+        "duration_est": 0.0,
+        "fact_refs": []
+      },
+      {
+        "shot_id": 2,
+        "visual": "产品出场特写，主体居中，光线干净",
+        "narration": "便携投影仪 S2 支持 1080P 物理分辨率。整体比预期顺手一些。",
+        "duration_est": 0.0,
+        "fact_refs": [
+          "P02-F1"
+        ]
+      },
+      {
+        "shot_id": 3,
+        "visual": "功能演示：手部操作与画面同步",
+        "narration": "另外，它内置 8000mAh 电池，官方标称续航 2.5 小时。这点很关键。",
+        "duration_est": 0.0,
+        "fact_refs": [
+          "P02-F2"
+        ]
+      },
+      {
+        "shot_id": 4,
+        "visual": "使用中的反应镜头，环境氛围光",
+        "narration": "另外，它支持手机与平板无线投屏。细节用起来才知道。这点很关键。",
+        "duration_est": 0.0,
+        "fact_refs": [
+          "P02-F3"
+        ]
+      },
+      {
+        "shot_id": 5,
+        "visual": "收尾：产品与场景同框，字幕落版",
+        "narration": "想看更多这类内容，评论区聊聊你的使用场景。不用特意腾出时间。",
+        "duration_est": 0.0,
+        "fact_refs": []
+      }
+    ],
+    "disclaimer": "本视频所述功能以实际产品为准。"
+  },
+  "estimated_total_seconds": 27.2,
+  "target_seconds": 30,
+  "fact_map": {
+    "P02-F1": [
+      "支持 1080P 物理分辨率"
+    ],
+    "P02-F2": [
+      "内置 8000mAh 电池，官方标称续航 2.5 小时"
+    ],
+    "P02-F3": [
+      "支持手机与平板无线投屏"
+    ]
+  },
+  "check": {
+    "ok": true,
+    "violations": [],
+    "checked_shots": 5,
+    "cited_materials": [
+      "P02-F1",
+      "P02-F2",
+      "P02-F3"
+    ]
+  },
+  "duration": {
+    "cps": 5.5,
+    "per_shot": {
+      "1": 5.6,
+      "2": 5.4,
+      "3": 5.6,
+      "4": 5.3,
+      "5": 5.3
+    },
+    "total_seconds": 27.2,
+    "target_seconds": 30,
+    "over_by": 0.0,
+    "within_tolerance": true
+  },
+  "risks": [
+    "时长按“字数/语速”估算，未含停顿与画面节奏，实际成片可能有 ±10% 偏差；"
+  ],
+  "messages": [
+    "终稿完成，预计总时长 27.2 秒。",
+    "脚本已完成：5 个分镜，预计 27.2 秒。"
+  ],
+  "steps": 7,
+  "tool_calls": 7,
+  "trace_file": "examples/trace/05_over_duration.jsonl"
+}

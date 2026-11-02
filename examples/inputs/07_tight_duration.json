@@ -1,0 +1,13 @@
+{
+  "case_id": "07_tight_duration",
+  "notes": "对照 01_normal：主题、素材、平台完全相同，只把目标时长从 30 秒改成 18 秒。首稿约 23 秒必然超限，用于验证“改变时长后下一步动作随之调整”。",
+  "brief": {
+    "topic": "露营投影仪怎么选",
+    "audience": "户外露营爱好者",
+    "platform": "douyin",
+    "target_seconds": 18,
+    "style": "轻松种草",
+    "product_ids": ["P02"]
+  },
+  "mock_draft_ratio": 1.27
+}

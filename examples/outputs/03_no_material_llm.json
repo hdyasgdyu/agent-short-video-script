@@ -1,0 +1,23 @@
+{
+  "case_id": "03_no_material",
+  "mode": "llm",
+  "llm_info": "api.deepseek.com / deepseek-flash",
+  "status": "needs_input",
+  "script": null,
+  "estimated_total_seconds": null,
+  "target_seconds": 30,
+  "fact_map": {},
+  "check": null,
+  "duration": null,
+  "risks": [],
+  "messages": [
+    "需要你补充信息：三次改写检索均 0 命中且改写机会已用尽，素材库无该产品任何事实依据，只能请用户补充资料后才能继续。",
+    "- 素材库中检索不到\"量子猫砂盆\"的任何资料，请提供该产品的官方参数字/详情页/说明书，包含具体功能点（如称重、排泄次数记录、异常提醒等）与数值参数。",
+    "- 该产品确切的品牌与型号名称是什么？是否还有其他别名，便于我重新检索。",
+    "- 是否有可公开引用的第三方测评或检测报告（如称重精度、续航、APP 数据项），以及哪些表述属于合规宣传口径？",
+    "- 30 秒抖音科技测评中，是否允许出现品牌 logo、价格与购买链接等元素？"
+  ],
+  "steps": 4,
+  "tool_calls": 4,
+  "trace_file": "examples/trace/03_no_material_llm.jsonl"
+}

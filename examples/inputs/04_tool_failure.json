@@ -1,0 +1,18 @@
+{
+  "case_id": "04_tool_failure",
+  "notes": "工具失败：素材检索首次调用注入超时，模型应观察到失败并换查询角度重试。",
+  "brief": {
+    "topic": "露营投影仪怎么选",
+    "audience": "户外露营爱好者",
+    "platform": "douyin",
+    "target_seconds": 30,
+    "style": "轻松种草",
+    "product_ids": [
+      "P02"
+    ]
+  },
+  "faults": {
+    "search_materials": "error_once"
+  },
+  "mock_draft_ratio": 0.98
+}

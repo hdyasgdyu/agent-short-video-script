@@ -1,0 +1,10 @@
+{
+  "brand_name": "示例品牌",
+  "banned_words": ["最好", "第一", "国家级", "顶级", "绝对"],
+  "required_disclaimer": "本视频所述功能以实际产品为准。",
+  "title_max_chars": 20,
+  "min_shots": 3,
+  "effect_data_whitelist": [],
+  "claim_triggers": ["支持", "兼容", "提升", "提高", "降低", "达到", "超过", "续航", "分辨率", "重量", "分贝"],
+  "notes": "effect_data_whitelist 为空表示：任何效果类数据（百分比、提升倍数）均无素材依据，一律拦截。素材中标注为官方标称的参数不在此列，但必须带 fact_refs。"
+}

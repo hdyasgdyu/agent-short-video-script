@@ -1,0 +1,26 @@
+{
+  "douyin": {
+    "name": "抖音",
+    "chars_per_second": 5.5,
+    "target_seconds_range": [15, 180],
+    "title_max_chars": 20
+  },
+  "shipinhao": {
+    "name": "视频号",
+    "chars_per_second": 5.0,
+    "target_seconds_range": [15, 300],
+    "title_max_chars": 24
+  },
+  "bilibili": {
+    "name": "B站",
+    "chars_per_second": 4.8,
+    "target_seconds_range": [20, 600],
+    "title_max_chars": 30
+  },
+  "xiaohongshu": {
+    "name": "小红书",
+    "chars_per_second": 5.2,
+    "target_seconds_range": [15, 120],
+    "title_max_chars": 20
+  }
+}

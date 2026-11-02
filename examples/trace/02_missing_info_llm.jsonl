@@ -1,0 +1,2 @@
+{"step": 1, "phase": "research", "actor": "model", "tool": "request_clarification", "args": {"questions": ["这条「露营投影仪怎么选」脚本要投放在哪个平台（例如抖音、小红书、视频号、B 站）？", "目标时长是多少秒（例如 30 秒、60 秒、90 秒）？"]}, "decision_basis": "简报缺少平台与目标时长两个必填字段，二者直接决定脚本结构与口播密度，此时检索和写稿只能靠猜测。", "reacts_to": ""}
+{"step": 1, "phase": "research", "actor": "tool", "tool": "request_clarification", "ok": true, "error": null, "result_summary": "已向用户发起补充请求，任务以 needs_input 结束。"}

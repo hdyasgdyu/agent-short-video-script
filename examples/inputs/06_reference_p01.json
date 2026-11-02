@@ -1,0 +1,15 @@
+{
+  "case_id": "06_reference_p01",
+  "notes": "题目参考实例：P01 只有“支持字幕”一条事实，30 秒目标；初稿 38 秒，修正到 28 秒左右，且只引用 P01-F1。",
+  "brief": {
+    "topic": "会议耳机字幕功能体验",
+    "audience": "线上会议频繁的上班族",
+    "platform": "douyin",
+    "target_seconds": 30,
+    "style": "真实体验分享",
+    "product_ids": [
+      "P01"
+    ]
+  },
+  "mock_draft_ratio": 1.27
+}

@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.DS_Store
+
+# 运行期临时产物（examples/ 下的正式留档不受影响）
+/tmp_out/
+/outputs/

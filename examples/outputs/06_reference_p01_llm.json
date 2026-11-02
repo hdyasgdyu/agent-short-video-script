@@ -1,0 +1,90 @@
+{
+  "case_id": "06_reference_p01",
+  "mode": "llm",
+  "llm_info": "api.deepseek.com / deepseek-flash",
+  "status": "completed",
+  "script": {
+    "title": "线上会议听漏信息？我的会议耳机字幕体验",
+    "platform": "douyin",
+    "target_seconds": 30,
+    "shots": [
+      {
+        "shot_id": 1,
+        "visual": "桌面俯拍：笔记本电脑开着会议界面，旁边放着耳机充电盒，手把耳机取出",
+        "narration": "线上会议一个接一个，最怕的就是听漏关键信息。",
+        "duration_est": 0.0,
+        "fact_refs": []
+      },
+      {
+        "shot_id": 2,
+        "visual": "近景：戴上耳机，镜头转向屏幕，会议画面下方文字随说话内容滚动",
+        "narration": "我戴的这副 P01 智能会议耳机 X1 支持字幕，说话内容会直接变成文字显示。",
+        "duration_est": 0.0,
+        "fact_refs": [
+          "P01-F1"
+        ]
+      },
+      {
+        "shot_id": 3,
+        "visual": "中景：人坐在工位上，双手离开键盘和记事本，视线保持在前方屏幕",
+        "narration": "现在开会我不用一直低头记笔记，看字幕就行，注意力能留在会议内容上。",
+        "duration_est": 0.0,
+        "fact_refs": []
+      },
+      {
+        "shot_id": 4,
+        "visual": "特写：耳机摘下手掌中，随后放回充电盒，镜头拉开成通勤包内一角",
+        "narration": "耳机小巧，通勤和工位之间来回带也不占地方。",
+        "duration_est": 0.0,
+        "fact_refs": []
+      },
+      {
+        "shot_id": 5,
+        "visual": "正面出镜口播，随后画面切到字幕界面定格",
+        "narration": "以上是真实使用感受，字幕功能细节以官方说明为准。",
+        "duration_est": 0.0,
+        "fact_refs": []
+      }
+    ],
+    "disclaimer": "本视频所述功能以实际产品为准。本视频为个人真实使用体验分享，产品功能与参数请以官方说明为准。"
+  },
+  "estimated_total_seconds": 24.2,
+  "target_seconds": 30,
+  "fact_map": {
+    "P01-F1": [
+      "支持字幕"
+    ]
+  },
+  "check": {
+    "ok": true,
+    "violations": [],
+    "checked_shots": 5,
+    "cited_materials": [
+      "P01-F1"
+    ]
+  },
+  "duration": {
+    "cps": 5.5,
+    "per_shot": {
+      "1": 4.0,
+      "2": 6.3,
+      "3": 5.8,
+      "4": 3.8,
+      "5": 4.3
+    },
+    "total_seconds": 24.2,
+    "target_seconds": 30,
+    "over_by": 0.0,
+    "within_tolerance": true
+  },
+  "risks": [
+    "时长按“字数/语速”估算，未含停顿与画面节奏，实际成片可能有 ±10% 偏差；"
+  ],
+  "messages": [
+    "终稿完成，预计总时长 24.2 秒。",
+    "脚本已完成：5 个分镜，预计 24.2 秒。"
+  ],
+  "steps": 9,
+  "tool_calls": 9,
+  "trace_file": "examples/trace/06_reference_p01_llm.jsonl"
+}

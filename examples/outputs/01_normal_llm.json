@@ -1,0 +1,121 @@
+{
+  "case_id": "01_normal",
+  "mode": "llm",
+  "llm_info": "api.deepseek.com / deepseek-flash",
+  "status": "completed",
+  "script": {
+    "title": "露营投影仪怎么选？记住这四点",
+    "platform": "douyin",
+    "target_seconds": 30,
+    "shots": [
+      {
+        "shot_id": 1,
+        "visual": "夜晚营地帐篷前，博主举着巴掌大的投影仪走向镜头，手电光扫过露营椅与幕布（开场钩子，无产品特写）",
+        "narration": "露营投影仪怎么选？记住这四点。",
+        "duration_est": 0.0,
+        "fact_refs": []
+      },
+      {
+        "shot_id": 2,
+        "visual": "产品放上电子秤特写，读数 0.6 千克；随后单手抓握塞进背包侧袋，拉链一拉即合",
+        "narration": "P02 整机只有 0.6 千克，塞进背包不占地方。",
+        "duration_est": 0.0,
+        "fact_refs": [
+          "P02-F4"
+        ]
+      },
+      {
+        "shot_id": 3,
+        "visual": "营地幕布亮起，镜头由虚到实给到画面细节特写，字幕打出参数标签",
+        "narration": "1080P 物理分辨率，天黑投在幕布上也清楚。",
+        "duration_est": 0.0,
+        "fact_refs": [
+          "P02-F1"
+        ]
+      },
+      {
+        "shot_id": 4,
+        "visual": "侧面接口与机身标识特写，画面上叠加电池图标动画；切到电影画面播放中，旁边露营灯亮起",
+        "narration": "内置 8000mAh 电池，官方标称续航 2.5 小时。",
+        "duration_est": 0.0,
+        "fact_refs": [
+          "P02-F2"
+        ]
+      },
+      {
+        "shot_id": 5,
+        "visual": "博主用手机无线投屏操作，画面同步到幕布；接着把投影仪故意放歪，自动梯形校正把画面调正",
+        "narration": "手机平板无线投屏，摆歪了还有自动梯形校正帮你调正。",
+        "duration_est": 0.0,
+        "fact_refs": [
+          "P02-F3",
+          "P02-F5"
+        ]
+      },
+      {
+        "shot_id": 6,
+        "visual": "远景：营地幕布亮着画面，博主和家人朋友坐在露营椅上举饮料碰杯，画面渐暗收尾",
+        "narration": "选投影仪看这几点就够了，露营的夜晚也能有画面陪你。",
+        "duration_est": 0.0,
+        "fact_refs": []
+      }
+    ],
+    "disclaimer": "本视频所述功能以实际产品为准。产品参数以官方页面标注为准；续航 2.5 小时为官方标称数据，实际使用时长受亮度设置、片源与使用环境影响，请以实测为准。"
+  },
+  "estimated_total_seconds": 23.7,
+  "target_seconds": 30,
+  "fact_map": {
+    "P02-F4": [
+      "整机重量 0.6 千克"
+    ],
+    "P02-F1": [
+      "支持 1080P 物理分辨率"
+    ],
+    "P02-F2": [
+      "内置 8000mAh 电池，官方标称续航 2.5 小时"
+    ],
+    "P02-F3": [
+      "支持手机与平板无线投屏"
+    ],
+    "P02-F5": [
+      "支持自动梯形校正"
+    ]
+  },
+  "check": {
+    "ok": true,
+    "violations": [],
+    "checked_shots": 6,
+    "cited_materials": [
+      "P02-F1",
+      "P02-F2",
+      "P02-F3",
+      "P02-F4",
+      "P02-F5"
+    ]
+  },
+  "duration": {
+    "cps": 5.5,
+    "per_shot": {
+      "1": 2.7,
+      "2": 3.8,
+      "3": 4.0,
+      "4": 4.2,
+      "5": 4.5,
+      "6": 4.5
+    },
+    "total_seconds": 23.7,
+    "target_seconds": 30,
+    "over_by": 0.0,
+    "within_tolerance": true
+  },
+  "risks": [
+    "时长按“字数/语速”估算，未含停顿与画面节奏，实际成片可能有 ±10% 偏差；"
+  ],
+  "messages": [
+    "终稿完成，预计总时长 23.7 秒。",
+    "脚本已完成：6 个分镜，预计 23.7 秒。"
+  ],
+  "steps": 8,
+  "tool_calls": 8,
+  "trace_file": "examples/trace/01_normal_llm.jsonl"
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "05_over_duration",
+  "notes": "超时长修正：初稿约 38 秒，需压缩旁白后重新估算，直到进入容差。",
+  "brief": {
+    "topic": "露营投影仪怎么选",
+    "audience": "户外露营爱好者",
+    "platform": "douyin",
+    "target_seconds": 30,
+    "style": "轻松种草",
+    "product_ids": [
+      "P02"
+    ]
+  },
+  "mock_draft_ratio": 1.27
+}

@@ -1,0 +1,11 @@
+{
+  "case_id": "03_no_material",
+  "notes": "无素材：主题在素材库中不存在，应多次改写查询后请求补充，而不是编造参数。",
+  "brief": {
+    "topic": "量子猫砂盆的AI健康监测",
+    "audience": "养猫人群",
+    "platform": "douyin",
+    "target_seconds": 30,
+    "style": "科技测评"
+  }
+}

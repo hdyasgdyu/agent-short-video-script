@@ -1,0 +1,2 @@
+{"step": 1, "phase": "research", "actor": "model", "tool": "request_clarification", "next_action": "request_clarification", "args": {"questions": ["请提供发布平台：发布平台，当前可用 bilibili / douyin / shipinhao / xiaohongshu", "请提供目标时长：目标时长（秒），例如 30"]}, "decision_basis": "缺少必填字段 ['platform', 'target_seconds']，继续生成会变成猜测，先请用户补充。", "reacts_to": ""}
+{"step": 1, "phase": "research", "actor": "tool", "tool": "request_clarification", "ok": true, "error": null, "result_summary": "已向用户发起补充请求，任务以 needs_input 结束。"}

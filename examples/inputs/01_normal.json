@@ -1,0 +1,15 @@
+{
+  "case_id": "01_normal",
+  "notes": "正常生成：素材充分，初稿一次通过时长与规则检查。",
+  "brief": {
+    "topic": "露营投影仪怎么选",
+    "audience": "户外露营爱好者",
+    "platform": "douyin",
+    "target_seconds": 30,
+    "style": "轻松种草",
+    "product_ids": [
+      "P02"
+    ]
+  },
+  "mock_draft_ratio": 0.98
+}
